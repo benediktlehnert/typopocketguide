@@ -1,0 +1,93 @@
+@font-face {
+font-family: entypo;
+src: url('entypo.ttf'),
+     url('entypo.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased; 
+}
+
+@font-face {
+font-family: entypo-social;
+src: url('entypo-social.ttf'),
+     url('entypo-social.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased; 
+}
+
+/* Toast Framework - type.css */
+body {
+	font: 400 1.1em/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #fafafa;
+	-webkit-font-smoothing: antialiased; 
+}
+
+p {
+	font-size: 0.9em;
+	line-height: 1.6em;
+	color: #818c97;
+	margin-bottom: 2.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #343434;
+	-webkit-font-smoothing: antialiased; 
+	text-align: center;
+}
+
+h1 {
+    font-size: 1.6em; /* 48 / 16 */
+    line-height: 1em; /* 48 / 48 */
+    margin-bottom: .5em; /* 24 / 48 */
+    letter-spacing: -1px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 1.4em; /* 36 / 16 */
+    line-height: 1.7em; /* 48 / 36 */
+    margin-bottom: .2em; /* 24 / 36 */
+    font-weight: 700;
+    border-top: 1px solid #d4d4d4;
+    padding-top: 2em;
+}
+h3 {
+    font-size: 1.2em; /* 24 / 16 */
+    font-style: italic;
+    letter-spacing: -1px;
+    line-height: 1em; /* 24 / 24 */
+    margin-bottom: 0.3em; /* 24 / 24 */
+}
+h4 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: 200;
+  
+}
+h5 {
+    font-size: 1.125em; /* 18 / 16 */
+    line-height: 1.333333333333333em; /* 24 / 18 */
+    margin-bottom: 1.333333333333333em; /* 24 / 18 */
+}
+h6 {
+    font-size: 1em; /* 16 / 16 */
+    line-height: 1.5em; /* 24 / 16 */
+    margin-bottom: 1.5em; /* 24 / 16 */
+}
+ul, ol, dl, blockquote {
+    margin-bottom: 0; /* 24 / 16 */
+}
+
+ul, li {
+	font-weight: 400;
+	padding-left: 0;
+	padding-right: 2em;
+	list-style: none;
+	-webkit-font-smoothing: antialiased; 
+}
+
+a, a:visited {
+	color: #262626;
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
