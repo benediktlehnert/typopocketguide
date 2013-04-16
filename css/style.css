@@ -20,7 +20,7 @@
 
 .hero h1 {
 	color: #fff;
-	font-size: 32px;
+	font-size: 36px;
 	font-weight: 900;
 	line-height: 1.2em;
 	margin-top: 0;
@@ -32,7 +32,11 @@
 
 .highlight {
 	color: #3eaf8e;
-	font-size: 2em;
+	font-size: 1.8em;
+}
+
+.green {
+	color: #3eaf8e;	
 }
 
 .wrong {
@@ -59,6 +63,26 @@
 	-moz-box-shadow: 0 2px 0 #d8d8d8;
 	-webkit-box-shadow: 0 2px 0 #d8d8d8;
 	box-shadow: 0 2px 0 #d8d8d8;
+}
+
+.keys {
+	border: 1px solid #e4e4e4;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 0 !important;
+	background-color: #f7f7f7;
+	margin-bottom: 3em !important;
+}
+
+.sample {
+	color: #3eaf8e;
+	font-size: 2em;
+	vertical-align: middle;
+	text-align: center;
+	text-decoration: none;
+	margin-left: .3em;
 }
 
 

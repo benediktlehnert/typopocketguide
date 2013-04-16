@@ -23,7 +23,7 @@ p {
 	font-size: 0.9em;
 	line-height: 1.6em;
 	color: #818c97;
-	margin-bottom: 2.2em;
+	margin-bottom: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,11 +41,11 @@ h1 {
 }
 h2 {
     font-size: 1.4em; /* 36 / 16 */
-    line-height: 1.7em; /* 48 / 36 */
-    margin-bottom: .2em; /* 24 / 36 */
+    line-height: 1.5em; /* 48 / 36 */
+    margin-bottom: .5em; /* 24 / 36 */
     font-weight: 700;
-    border-top: 1px solid #d4d4d4;
-    padding-top: 2em;
+    border-top: 1px solid #e4e4e4;
+    padding-top: 1.5em;
 }
 h3 {
     font-size: 1.2em; /* 24 / 16 */
@@ -61,14 +61,20 @@ h4 {
   
 }
 h5 {
-    font-size: 1.125em; /* 18 / 16 */
-    line-height: 1.333333333333333em; /* 24 / 18 */
-    margin-bottom: 1.333333333333333em; /* 24 / 18 */
+    font-size: 1.125em;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    font-weight: 200;
+    text-align: left;
 }
 h6 {
     font-size: 1em; /* 16 / 16 */
     line-height: 1.5em; /* 24 / 16 */
-    margin-bottom: 1.5em; /* 24 / 16 */
+    margin-bottom: .4em; /* 24 / 16 */
+    color: #818c97;
+    text-align: left;
+    margin-left: .5em;
+    margin-top: 1em !important;
 }
 ul, ol, dl, blockquote {
     margin-bottom: 0; /* 24 / 16 */
@@ -83,8 +89,7 @@ ul, li {
 }
 
 a, a:visited {
-	color: #262626;
-	font-style: italic;
+	color: #5a5a5a;
 	text-decoration: none;
 }
 
