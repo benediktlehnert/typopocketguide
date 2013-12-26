@@ -10,24 +10,76 @@
 	font-style: normal;
 }
 
+.header {
+	height: 650px;
+}
+
 .hero {
 	background-image: url('../images/keyboard.png');
-	background-position-x: 125px;
-	background-position-y: 360px;
+	background-position-x: 80px;
+	background-position-y: 280px;
 	background-repeat: no-repeat;
 	background-color: #3d99de;
+	height: 470px;
 }
 
 .hero h1 {
 	color: #fff;
-	font-size: 36px;
+	font-size: 52px;
 	font-weight: 900;
 	line-height: 1.2em;
 	margin-top: 0;
-	padding-top: 180px;
-	height: 300px;
+	padding-top: 110px;
 	text-align: center;
 	letter-spacing: -1px;
+}
+
+.nav {
+	text-align: center;
+	font-size: 14px;
+	line-height: 16px;
+	min-height: 140px;
+	margin-top: 40px;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+.nav ul {
+	width: 100%;
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+}
+
+.nav li {
+	vertical-align: top;
+	display: inline-block;
+	width: 100px;
+	padding: 0 5px 0 5px;
+	margin-bottom: 20px;
+}
+
+.nav li img {
+	display: block;
+	text-align: center;
+	margin: 0 0 10px 18px;
+}
+
+.nav a:hover {
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+.illu {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.illu img {
+	width: 180px;
+}
+
+.block {
+	border-bottom: 1px solid #efefef;
 }
 
 .highlight {
@@ -73,7 +125,7 @@
 	border-radius: 5px;
 	margin-left: 0 !important;
 	background-color: #f7f7f7;
-	margin-bottom: 3em !important;
+	margin-bottom: 2.1em !important;
 }
 
 .sample {
@@ -131,7 +183,6 @@
 
 /* Mobile */
 @media (max-width: 640px) and (min-width: 0px) {  
-  
   
   
 }

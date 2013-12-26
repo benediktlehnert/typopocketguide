@@ -20,9 +20,9 @@ body {
 }
 
 p {
-	font-size: 0.9em;
+	font-size: 1em;
 	line-height: 1.6em;
-	color: #818c97;
+	color: #697480;
 	margin-bottom: 1.5em;
 }
 
@@ -44,8 +44,6 @@ h2 {
     line-height: 1.5em; /* 48 / 36 */
     margin-bottom: .5em; /* 24 / 36 */
     font-weight: 700;
-    border-top: 1px solid #e4e4e4;
-    padding-top: 1.5em;
 }
 h3 {
     font-size: 1.2em; /* 24 / 16 */
