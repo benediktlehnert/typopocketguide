@@ -46,9 +46,11 @@ h2 {
     font-weight: 700;
 }
 h3 {
-    font-size: 1.1em; /* 24 / 16 */
+    font-size: 1em; /* 24 / 16 */
+   	color: #818c97;
     line-height: 1em; /* 24 / 24 */
-    margin-bottom: .8em; /* 24 / 24 */
+    margin-top: 0;
+    margin-bottom: 0.4em; /* 24 / 24 */
     text-align: left;
 }
 h4 {
@@ -74,15 +76,16 @@ h6 {
     margin-top: 1em !important;
 }
 ul, ol, dl, blockquote {
+    margin-top: 0;
     margin-bottom: 0; /* 24 / 16 */
 }
 
 ul, li {
-	font-weight: 400;
-	padding-left: 0;
-	padding-right: 2em;
-	list-style: none;
-	-webkit-font-smoothing: antialiased; 
+	color: #697480;
+	list-style: disc;
+	list-style-position: inside;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 1px;
 }
 
 a, a:visited {
@@ -208,6 +211,11 @@ a:hover {
 	margin-left: 0 !important;
 	background-color: #f7f7f7;
 	margin-bottom: 2.1em !important;
+}
+
+.links {
+	margin-bottom: 2.1em !important;
+	padding: 1.3em !important;
 }
 
 .sample {
