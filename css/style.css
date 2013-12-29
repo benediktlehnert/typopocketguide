@@ -96,6 +96,11 @@ a:hover {
 
 .hero {
 	background-color: #3d99de;
+	background-image: url(../images/keyboard.png);
+	background-position: absolute;
+	background-position-x: 80px;
+	background-position-y: 300px;
+	background-repeat: no-repeat;
 	height: 460px;
 }
 
