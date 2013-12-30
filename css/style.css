@@ -90,11 +90,11 @@ ul, li {
 
 a, a:visited {
 	color: #5a5a5a;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .hero {
@@ -147,6 +147,10 @@ a:hover {
 	display: block;
 	text-align: center;
 	margin: 0 0 10px 18px;
+}
+
+.nav a, a:visited {
+	text-decoration: none;
 }
 
 .nav a:hover {
