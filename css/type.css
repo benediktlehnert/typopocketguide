@@ -1,0 +1,97 @@
+@font-face {
+font-family: entypo;
+src: url('entypo.ttf'),
+     url('entypo.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased; 
+}
+
+@font-face {
+font-family: entypo-social;
+src: url('entypo-social.ttf'),
+     url('entypo-social.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased; 
+}
+
+/* Toast Framework - type.css */
+body {
+	font: 400 1.1em/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-color: #fafafa;
+	-webkit-font-smoothing: antialiased; 
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.6em;
+	color: #697480;
+	margin-bottom: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #343434;
+	-webkit-font-smoothing: antialiased; 
+	text-align: center;
+}
+
+h1 {
+    font-size: 1.6em; /* 48 / 16 */
+    line-height: 1em; /* 48 / 48 */
+    margin-bottom: .5em; /* 24 / 48 */
+    letter-spacing: -1px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 1.4em; /* 36 / 16 */
+    line-height: 1.5em; /* 48 / 36 */
+    margin-bottom: .5em; /* 24 / 36 */
+    font-weight: 700;
+}
+h3 {
+    font-size: 1.2em; /* 24 / 16 */
+   	text-transform: uppercase;
+   	color: #17629b;
+    letter-spacing: 4px;
+    line-height: 1em; /* 24 / 24 */
+    margin-bottom: 0.3em; /* 24 / 24 */
+}
+h4 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	font-weight: 200;
+  
+}
+h5 {
+    font-size: 1.125em;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    font-weight: 200;
+    text-align: left;
+}
+h6 {
+    font-size: 1em; /* 16 / 16 */
+    line-height: 1.5em; /* 24 / 16 */
+    margin-bottom: .4em; /* 24 / 16 */
+    color: #818c97;
+    text-align: left;
+    margin-left: .5em;
+    margin-top: 1em !important;
+}
+ul, ol, dl, blockquote {
+    margin-bottom: 0; /* 24 / 16 */
+}
+
+ul, li {
+	font-weight: 400;
+	padding-left: 0;
+	padding-right: 2em;
+	list-style: none;
+	-webkit-font-smoothing: antialiased; 
+}
+
+a, a:visited {
+	color: #5a5a5a;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

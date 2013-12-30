@@ -99,11 +99,6 @@ a:hover {
 
 .hero {
 	background-color: #3d99de;
-	background-image: url(../images/keyboard.png);
-	background-position: absolute;
-	background-position-x: 80px;
-	background-position-y: 300px;
-	background-repeat: no-repeat;
 	height: 460px;
 }
 
@@ -254,7 +249,6 @@ img.about {
 }
 
 /* Media Queries */
-
 /* Tablet */
 @media (max-width: 768px) and (min-width: 641px) {
 	
@@ -317,7 +311,6 @@ img.about {
   	margin-top: 30px;
   	padding-bottom: 8px;
   	border-bottom: 1px solid #e4e4e4;
-  	float: right;
   }
   
 }
@@ -340,7 +333,6 @@ img.about {
   	margin-top: 30px;
   	padding-bottom: 8px;
   	border-bottom: 1px solid #e4e4e4;
-  	float: right;
   }
   
 }
