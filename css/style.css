@@ -50,8 +50,8 @@ h3 {
     font-size: 1em;
    	color: #818c97;
     line-height: 1em;
-    margin-top: 0;
-    margin-bottom: 0.4em;
+    margin-top: 1em;
+    margin-bottom: .4em;
     text-align: left;
 }
 h4 {
@@ -156,6 +156,10 @@ a:hover {
 .nav a:hover {
 	opacity: 0.5;
 	text-decoration: none;
+}
+
+.nav a:hover img {
+	opacity: 0.5;
 }
 
 .illu {
@@ -269,7 +273,7 @@ img.about {
 }
 
 .footer {
-	margin-top: 0;
+	margin-top: 1em;
 	margin-bottom: 1em;
 	border-top: 1px solid #efefef;
 }
