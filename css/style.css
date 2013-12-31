@@ -33,24 +33,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 1.6em; /* 48 / 16 */
-    line-height: 1em; /* 48 / 48 */
-    margin-bottom: .5em; /* 24 / 48 */
+    font-size: 1.6em;
+    line-height: 1em;
+    margin-bottom: .5em;
     letter-spacing: -1px;
     font-weight: 900;
 }
 h2 {
-    font-size: 1.4em; /* 36 / 16 */
-    line-height: 1.5em; /* 48 / 36 */
-    margin-bottom: .5em; /* 24 / 36 */
+    font-size: 1.4em;
+    line-height: 1.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
     font-weight: 700;
 }
 h3 {
-    font-size: 1em; /* 24 / 16 */
+    font-size: 1em;
    	color: #818c97;
-    line-height: 1em; /* 24 / 24 */
+    line-height: 1em;
     margin-top: 0;
-    margin-bottom: 0.4em; /* 24 / 24 */
+    margin-bottom: 0.4em;
     text-align: left;
 }
 h4 {
@@ -67,9 +68,9 @@ h5 {
     text-align: left;
 }
 h6 {
-    font-size: 1em; /* 16 / 16 */
-    line-height: 1.5em; /* 24 / 16 */
-    margin-bottom: .4em; /* 24 / 16 */
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: .4em;
     color: #818c97;
     text-align: left;
     margin-left: .5em;
@@ -77,7 +78,7 @@ h6 {
 }
 ul, ol, dl, blockquote {
     margin-top: 0;
-    margin-bottom: 0; /* 24 / 16 */
+    margin-bottom: 0;
 }
 
 ul, li {
@@ -95,6 +96,10 @@ a, a:visited {
 
 a:hover {
 	text-decoration: none;
+}
+
+.entypo {
+	font-family: entypo;
 }
 
 .hero {
@@ -155,7 +160,7 @@ a:hover {
 
 .illu {
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 2.8em;
 }
 
 .illu img {
@@ -164,6 +169,34 @@ a:hover {
 
 .block {
 	border-bottom: 1px solid #efefef;
+}
+
+.top {
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: -12px;
+	text-align: center;
+}
+
+a.backtotop {
+	font-size: .8em;
+	font-weight: 600;
+	line-height: 1em;
+	background-color: #fff;
+	color: #818c97;
+	border: 1px solid #efefef;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-khtml-border-radius: 40px;
+	border-radius: 40px;
+	padding: 10px 17px 10px 17px;
+	text-decoration: none;
+}
+
+a:hover.backtotop {
+	border: none;
+	color: #fff;
+	background-color: #818c97;;
 }
 
 .highlight {
@@ -235,17 +268,21 @@ img.about {
 	border-radius: 75px;
 }
 
-#footer {
+.footer {
 	margin-top: 0;
 	margin-bottom: 1em;
 	border-top: 1px solid #efefef;
 }
 
-#footer p {
+.footer p {
 	width: 100%;
 	font-size: .8em;
 	text-align: center;
 	display: inline-block;
+}
+
+.light a {
+	color: #adb7c0;
 }
 
 /* Media Queries */
