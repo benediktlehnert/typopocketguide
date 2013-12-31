@@ -98,8 +98,24 @@ a:hover {
 	text-decoration: none;
 }
 
+.fb {
+	width: 130px;
+	padding-top: 7px;
+}
+
+.twitter-share-button {
+	margin-right: -16px;
+}
+
 .entypo {
 	font-family: entypo;
+}
+
+.social {
+	width: 100%;
+	text-align: right;
+	position: fixed;
+	margin-right: 0;
 }
 
 .hero {
@@ -113,7 +129,7 @@ a:hover {
 	font-weight: 900;
 	line-height: 1.2em;
 	margin-top: 0;
-	padding-top: 155px;
+	padding-top: 165px;
 	text-align: center;
 	letter-spacing: -1px;
 }
@@ -283,15 +299,28 @@ img.about {
 	font-size: .8em;
 	text-align: center;
 	display: inline-block;
+	margin-bottom: .5em;
 }
 
 .light a {
 	color: #adb7c0;
 }
 
+.socialfooter {
+	margin-top: 0;
+	width: 100%;
+	text-align: center;
+}
+
 /* Media Queries */
 /* Tablet */
 @media (max-width: 768px) and (min-width: 641px) {
+	
+	.social {
+		width: 100%;
+		text-align: center;
+		position: absolute;
+	}
 	
 	.hero {
 		height: 480px;
@@ -301,7 +330,7 @@ img.about {
 	.hero h1 {
 		color: #fff;
 		font-size: 42px;
-		padding-top: 180px;
+		padding-top: 200px;
 	}
 	
 	.nav {
@@ -315,6 +344,12 @@ img.about {
 /* Mobile */
 @media (max-width: 640px) and (min-width: 481px) {  
   
+  .social {
+  	width: 100%;
+  	text-align: center;
+  	position: absolute;
+  }
+  
   .hero {
   	height: 300px;
   	padding: 0 10px 0 10px;
@@ -323,7 +358,7 @@ img.about {
   .hero h1 {
   	color: #fff;
   	font-size: 34px;
-  	padding-top: 95px;
+  	padding-top: 115px;
   }
   
   .nav {
@@ -337,6 +372,12 @@ img.about {
 /* Mobile */
 @media (max-width: 480px) and (min-width: 321px) {  
   
+  .social {
+  	width: 100%;
+  	text-align: center;
+  	position: absolute;
+  }
+  
   .hero {
   	height: 420px;
   	padding: 0 5% 0 5%;
@@ -345,7 +386,7 @@ img.about {
   .hero h1 {
   	color: #fff;
   	font-size: 38px;
-  	padding-top: 130px;
+  	padding-top: 155px;
   }
   
   .nav {
@@ -354,10 +395,26 @@ img.about {
   	border-bottom: 1px solid #e4e4e4;
   }
   
+  .links ul,li {
+  	margin-left: 10px;
+  	padding: 0;
+  	list-style-position: outside;
+  }
+  
 }
 
 /* Mobile */
 @media (max-width: 320px) and (min-width: 0px) { 
+  
+  h2 {
+  	line-height: 1.3em;
+  }
+  
+  .social {
+  	width: 100%;
+  	text-align: center;
+  	position: absolute;
+  }
   
   .hero {
   	height: 420px;
@@ -366,14 +423,29 @@ img.about {
   
   .hero h1 {
   	color: #fff;
-  	font-size: 32px;
-  	padding-top: 95px;
+  	font-size: 34px;
+  	padding-top: 120px;
   }
   
   .nav {
   	margin-top: 30px;
   	padding-bottom: 8px;
   	border-bottom: 1px solid #e4e4e4;
+  }
+  
+  .illu {
+  	text-align: center;
+  	margin-top: 2.5em;
+  }
+  
+  .illu img {
+  	width: 140px;
+  }
+  
+  .links ul,li {
+  	margin-left: 10px;
+  	padding: 0;
+  	list-style-position: outside;
   }
   
 }

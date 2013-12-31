@@ -79,3 +79,11 @@ Column container
     margin: 0;
   }
 }
+/* Mobile */
+@media (max-width: 640px) and (min-width: 0px) {  
+
+.grids [class*="grid-"] {
+  padding: 0 4% 0 4%;
+}  
+  
+}
