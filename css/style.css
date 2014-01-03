@@ -267,6 +267,16 @@ a:hover.backtotop {
 	margin-bottom: 2.1em !important;
 }
 
+.keys p {
+  margin-bottom: .5em;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #e4e4e4;	
+}
+
+.keys p:last-child {
+	border-bottom: none;
+}
+
 .links {
 	padding: 1.3em !important;
 }
