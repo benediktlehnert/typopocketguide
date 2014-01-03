@@ -211,6 +211,8 @@ a.backtotop {
 	border-radius: 40px;
 	padding: 10px 17px 10px 17px;
 	text-decoration: none;
+	position: relative; 
+	z-index:1000;
 }
 
 a:hover.backtotop {
