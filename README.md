@@ -11,4 +11,4 @@ Good typography is emotional in that the choice of typeface can affect how a tex
 
 This little guide is for everyone who is facing typographic adventures or just wants to do things right. Mastering this craft will not only earn you the respect of the typo nerds, but eventually help you to get your message across more successfully.
 
-I will run this as an ongoing project, so please feel free to contribute on GitHub or give feedback via email or Twitter. It’s highly appreciated!
+I run this as an ongoing project, so please feel free to contribute on GitHub or give feedback via email or Twitter. It’s highly appreciated!
