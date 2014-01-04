@@ -1,3 +1,39 @@
+/* first for IE 4–8 */
+@font-face {
+  font-family: SeroWebPro-Black;
+  src: url("SeroWebPro-Black.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: SeroWebPro-Black;
+  src: url("SeroWebPro-Black.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: SeroWebPro-Light;
+  src: url("SeroWebPro-Light.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: SeroWebPro-Light;
+  src: url("SeroWebPro-Light.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: SeroWebPro-Medium;
+  src: url("SeroWebPro-Medium.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: SeroWebPro-Medium;
+  src: url("SeroWebPro-Medium.woff") format("woff");
+}
+
 @font-face {
 font-family: entypo;
 src: url('entypo.ttf'),
@@ -14,37 +50,42 @@ src: url('entypo-social.ttf'),
 
 /* Toast Framework - type.css */
 body {
-	font: 400 1.1em/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font: 1.1em/1.5 SeroWebPro-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: #fafafa;
 	-webkit-font-smoothing: antialiased; 
 }
 
 p {
 	font-size: 1em;
-	line-height: 1.6em;
+	line-height: 1.7em;
 	color: #697480;
 	margin-bottom: 1.5em;
+	font-weight: normal;
+}
+
+strong {
+	font-family: SeroWebPro-Medium;
+	font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #343434;
 	-webkit-font-smoothing: antialiased; 
 	text-align: center;
+	font-weight: normal;
 }
 
 h1 {
     font-size: 1.6em;
     line-height: 1em;
     margin-bottom: .5em;
-    letter-spacing: -1px;
-    font-weight: 900;
 }
 h2 {
+	font-family: SeroWebPro-Black;
     font-size: 1.4em;
     line-height: 1.5em;
     margin-top: .5em;
     margin-bottom: .5em;
-    font-weight: 700;
 }
 h3 {
     font-size: 1em;
@@ -57,14 +98,12 @@ h3 {
 h4 {
 	font-size: 1.2em;
 	line-height: 1.5em;
-	font-weight: 200;
   
 }
 h5 {
     font-size: 1.125em;
     line-height: 1.6em;
     margin-bottom: 1.5em;
-    font-weight: 200;
     text-align: left;
 }
 h6 {
@@ -125,18 +164,19 @@ a:hover {
 
 .hero h1 {
 	color: #fff;
-	font-size: 52px;
-	font-weight: 900;
+	font-family: SeroWebPro-Black;
+	font-size: 50px;
+	/* letter-spacing: -1px; */
 	line-height: 1.2em;
 	margin-top: 0;
-	padding-top: 165px;
+	padding-top: 175px;
 	text-align: center;
-	letter-spacing: -1px;
+	-webkit-font-smoothing: antialiased; 
 }
 
 .nav {
 	text-align: center;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 16px;
 	min-height: 140px;
 	margin-top: 35px;
@@ -200,7 +240,7 @@ a:hover {
 
 a.backtotop {
 	font-size: .8em;
-	font-weight: 600;
+	font-family: SeroWebPro-Medium;
 	line-height: 1em;
 	background-color: #fff;
 	color: #818c97;

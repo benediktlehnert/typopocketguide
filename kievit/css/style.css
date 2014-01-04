@@ -1,3 +1,83 @@
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro-Black;
+  src: url("KievitWebPro-Black.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro-Black;
+  src: url("KievitWebPro-Black.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro-Bold;
+  src: url("KievitWebPro-Bold.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro-Bold;
+  src: url("KievitWebPro-Bold.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Ita.eot");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Ita.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Bold.eot");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro-Light;
+  src: url("KievitWebPro-Light.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro-Light;
+  src: url("KievitWebPro-Light.woff") format("woff");
+}
+
 @font-face {
 font-family: entypo;
 src: url('entypo.ttf'),
@@ -14,37 +94,42 @@ src: url('entypo-social.ttf'),
 
 /* Toast Framework - type.css */
 body {
-	font: 400 1.1em/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font: 1.2em/1.5 KievitWebPro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: #fafafa;
 	-webkit-font-smoothing: antialiased; 
 }
 
 p {
 	font-size: 1em;
-	line-height: 1.6em;
+	line-height: 1.5em;
 	color: #697480;
 	margin-bottom: 1.5em;
+	font-weight: normal;
+}
+
+strong {
+	font-family: KievitWebPro-Bold;
+	font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #343434;
 	-webkit-font-smoothing: antialiased; 
 	text-align: center;
+	font-weight: normal;
 }
 
 h1 {
     font-size: 1.6em;
     line-height: 1em;
     margin-bottom: .5em;
-    letter-spacing: -1px;
-    font-weight: 900;
 }
 h2 {
+	font-family: KievitWebPro-Bold;
     font-size: 1.4em;
     line-height: 1.5em;
     margin-top: .5em;
     margin-bottom: .5em;
-    font-weight: 700;
 }
 h3 {
     font-size: 1em;
@@ -57,18 +142,17 @@ h3 {
 h4 {
 	font-size: 1.2em;
 	line-height: 1.5em;
-	font-weight: 200;
   
 }
 h5 {
     font-size: 1.125em;
     line-height: 1.6em;
     margin-bottom: 1.5em;
-    font-weight: 200;
     text-align: left;
 }
 h6 {
     font-size: 1em;
+    font-weight: bold;
     line-height: 1.5em;
     margin-bottom: .4em;
     color: #818c97;
@@ -125,13 +209,14 @@ a:hover {
 
 .hero h1 {
 	color: #fff;
-	font-size: 52px;
-	font-weight: 900;
+	font-family: KievitWebPro-Black;
+	font-size: 50px;
+	/* letter-spacing: -1px; */
 	line-height: 1.2em;
 	margin-top: 0;
-	padding-top: 165px;
+	padding-top: 175px;
 	text-align: center;
-	letter-spacing: -1px;
+	-webkit-font-smoothing: antialiased; 
 }
 
 .nav {
@@ -194,13 +279,13 @@ a:hover {
 .top {
 	width: 100%;
 	margin-top: 0;
-	margin-bottom: -12px;
+	margin-bottom: -14px;
 	text-align: center;
 }
 
 a.backtotop {
-	font-size: .8em;
-	font-weight: 600;
+	font-size: .7em;
+	font-family: KievitWebPro-Bold;
 	line-height: 1em;
 	background-color: #fff;
 	color: #818c97;
@@ -209,7 +294,7 @@ a.backtotop {
 	-webkit-border-radius: 40px;
 	-khtml-border-radius: 40px;
 	border-radius: 40px;
-	padding: 10px 17px 10px 17px;
+	padding: 12px 17px 10px 17px;
 	text-decoration: none;
 	position: relative; 
 	z-index:1000;
