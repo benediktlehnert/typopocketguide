@@ -498,7 +498,7 @@ img.about {
   
   p {
   	font-size: .9em;
-  	line-height: 1.6em;
+  	line-height: 1.5em;
   	color: #69717b;
   	margin-bottom: 1.5em;
   	font-weight: normal;
@@ -551,6 +551,10 @@ img.about {
   
   .key {
   	font-size: .9em;
+  }
+  
+  .keys {
+  	padding: 0!important;
   }
   
   .links {
