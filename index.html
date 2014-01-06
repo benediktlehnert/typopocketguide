@@ -349,28 +349,11 @@
 	</script>
 	<!-- /Google Analytics -->
 	
-	<!-- The JavaScript -->
+	<!-- Java Script -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>		
 	<script type="text/javascript" src="jquery.easing.1.3.js"></script>
-	<script type="text/javascript">
-	    $(function() {
-	        $('a').bind('click',function(event){
-	            var $anchor = $(this);
-	            
-	            $('html, body').stop().animate({
-	                scrollTop: $($anchor.attr('href')).offset().top
-	            }, 1000,'easeInOutExpo');
-	            /*
-	            if you don't want to use the easing effects:
-	            $('html, body').stop().animate({
-	                scrollTop: $($anchor.attr('href')).offset().top
-	            }, 1000);
-	            */
-	            event.preventDefault();
-	        });
-	    });
-	</script>
-	<!-- /The JavaScript -->
+	<script type="text/javascript" src="main.js"></script>
+	<!-- /Java Script -->
 
 </body>
 </html>
