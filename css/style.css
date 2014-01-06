@@ -1,3 +1,71 @@
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro-Black;
+  src: url("KievitWebPro-Black.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro-Black;
+  src: url("KievitWebPro-Black.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro-Bold;
+  src: url("KievitWebPro-Bold.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro-Bold;
+  src: url("KievitWebPro-Bold.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Ita.eot");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Ita.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Bold.eot");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: KievitWebPro;
+  src: url("KievitWebPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
 @font-face {
 font-family: entypo;
 src: url('entypo.ttf'),
@@ -14,37 +82,42 @@ src: url('entypo-social.ttf'),
 
 /* Toast Framework - type.css */
 body {
-	font: 400 1.1em/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font: 1.2em/1.5 KievitWebPro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: #fafafa;
 	-webkit-font-smoothing: antialiased; 
 }
 
 p {
 	font-size: 1em;
-	line-height: 1.6em;
-	color: #697480;
+	line-height: 1.5em;
+	color: #69717b;
 	margin-bottom: 1.5em;
+	font-weight: normal;
+}
+
+strong {
+	font-family: KievitWebPro-Bold;
+	font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	color: #343434;
 	-webkit-font-smoothing: antialiased; 
 	text-align: center;
+	font-weight: normal;
 }
 
 h1 {
     font-size: 1.6em;
     line-height: 1em;
     margin-bottom: .5em;
-    letter-spacing: -1px;
-    font-weight: 900;
 }
 h2 {
-    font-size: 1.4em;
+	font-family: KievitWebPro-Bold;
+    font-size: 1.5em;
     line-height: 1.5em;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    font-weight: 700;
+    margin-top: .6em;
+    margin-bottom: .6em;
 }
 h3 {
     font-size: 1em;
@@ -57,18 +130,17 @@ h3 {
 h4 {
 	font-size: 1.2em;
 	line-height: 1.5em;
-	font-weight: 200;
   
 }
 h5 {
     font-size: 1.125em;
     line-height: 1.6em;
     margin-bottom: 1.5em;
-    font-weight: 200;
     text-align: left;
 }
 h6 {
     font-size: 1em;
+    font-weight: bold;
     line-height: 1.5em;
     margin-bottom: .4em;
     color: #818c97;
@@ -90,7 +162,7 @@ ul, li {
 }
 
 a, a:visited {
-	color: #5a5a5a;
+	color: #697480;
 	text-decoration: underline;
 }
 
@@ -125,19 +197,20 @@ a:hover {
 
 .hero h1 {
 	color: #fff;
-	font-size: 52px;
-	font-weight: 900;
+	font-family: KievitWebPro-Black;
+	font-size: 50px;
+	/* letter-spacing: -1px; */
 	line-height: 1.2em;
 	margin-top: 0;
-	padding-top: 165px;
+	padding-top: 180px;
 	text-align: center;
-	letter-spacing: -1px;
+
 }
 
 .nav {
 	text-align: center;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 17px;
 	min-height: 140px;
 	margin-top: 35px;
 	padding: 0;
@@ -165,8 +238,9 @@ a:hover {
 	margin: 0 0 10px 18px;
 }
 
-.nav a, a:visited {
+.nav a {
 	text-decoration: none;
+	color: #585858;
 }
 
 .nav a:hover {
@@ -180,7 +254,7 @@ a:hover {
 
 .illu {
 	text-align: center;
-	margin-top: 2.8em;
+	margin-top: 3em;
 }
 
 .illu img {
@@ -194,13 +268,13 @@ a:hover {
 .top {
 	width: 100%;
 	margin-top: 0;
-	margin-bottom: -12px;
+	margin-bottom: -14px;
 	text-align: center;
 }
 
 a.backtotop {
-	font-size: .8em;
-	font-weight: 600;
+	font-size: .7em;
+	font-family: KievitWebPro-Bold;
 	line-height: 1em;
 	background-color: #fff;
 	color: #818c97;
@@ -209,7 +283,7 @@ a.backtotop {
 	-webkit-border-radius: 40px;
 	-khtml-border-radius: 40px;
 	border-radius: 40px;
-	padding: 10px 17px 10px 17px;
+	padding: 12px 17px 10px 17px;
 	text-decoration: none;
 	position: relative; 
 	z-index:1000;
@@ -242,7 +316,7 @@ a:hover.backtotop {
 	text-align: center;
 	text-decoration: none;
 	margin-left: .5em;
-	padding: 5px 15px 5px 15px;
+	padding: 10px 15px 5px 15px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-khtml-border-radius: 5px;
@@ -274,6 +348,7 @@ a:hover.backtotop {
 
 .keys p:last-child {
 	border-bottom: none;
+	margin-bottom: 0;
 }
 
 .links {
@@ -297,12 +372,6 @@ img.about {
 	-webkit-border-radius: 75px;
 	-khtml-border-radius: 75px;
 	border-radius: 75px;
-}
-
-.languageselect {
-	width: 100%;
-	text-align: center;
-	margin-bottom: 2em;
 }
 
 .footer {
@@ -375,7 +444,7 @@ img.about {
   .hero h1 {
   	color: #fff;
   	font-size: 34px;
-  	padding-top: 115px;
+  	padding-top: 120px;
   }
   
   .nav {
@@ -397,19 +466,23 @@ img.about {
   
   .hero {
   	height: 420px;
-  	padding: 0 5% 0 5%;
+  	padding: 0;
   }
   
   .hero h1 {
   	color: #fff;
   	font-size: 38px;
-  	padding-top: 155px;
+  	padding-top: 160px;
   }
   
   .nav {
   	margin-top: 30px;
   	padding-bottom: 8px;
   	border-bottom: 1px solid #e4e4e4;
+  }
+  
+  .nav li {
+  	margin-left: 0!important;
   }
   
   .links ul,li {
@@ -423,8 +496,21 @@ img.about {
 /* Mobile */
 @media (max-width: 320px) and (min-width: 0px) { 
   
+  p {
+  	font-size: .9em;
+  	line-height: 1.6em;
+  	color: #69717b;
+  	margin-bottom: 1.5em;
+  	font-weight: normal;
+  }
+  
   h2 {
+  	font-size: 1.3em;
   	line-height: 1.3em;
+  }
+  
+  h6 {
+  	font-size: .9em;
   }
   
   .social {
@@ -435,7 +521,7 @@ img.about {
   
   .hero {
   	height: 420px;
-  	padding: 0 15% 0 15%;
+  	padding: 0 10% 0 10%;
   }
   
   .hero h1 {
@@ -450,6 +536,10 @@ img.about {
   	border-bottom: 1px solid #e4e4e4;
   }
   
+  .nav li {
+  	margin-left: 0!important;
+  }
+  
   .illu {
   	text-align: center;
   	margin-top: 2.5em;
@@ -459,10 +549,22 @@ img.about {
   	width: 140px;
   }
   
+  .key {
+  	font-size: .9em;
+  }
+  
+  .links {
+  	font-size: .9em;
+  }
+  
   .links ul,li {
   	margin-left: 10px;
   	padding: 0;
   	list-style-position: outside;
+  }
+  
+  .footer {
+  	font-size: .9em;
   }
   
 }
