@@ -66,18 +66,6 @@
   font-style: normal;
 }
 
-/* first for IE 4–8 */
-@font-face {
-  font-family: KievitWebPro-Light;
-  src: url("KievitWebPro-Light.eot");
-}
-
-/* then for WOFF-capable browsers */
-@font-face {
-  font-family: KievitWebPro-Light;
-  src: url("KievitWebPro-Light.woff") format("woff");
-}
-
 @font-face {
 font-family: entypo;
 src: url('entypo.ttf'),
@@ -102,7 +90,7 @@ body {
 p {
 	font-size: 1em;
 	line-height: 1.5em;
-	color: #697480;
+	color: #69717b;
 	margin-bottom: 1.5em;
 	font-weight: normal;
 }
@@ -126,10 +114,10 @@ h1 {
 }
 h2 {
 	font-family: KievitWebPro-Bold;
-    font-size: 1.4em;
+    font-size: 1.5em;
     line-height: 1.5em;
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: .6em;
+    margin-bottom: .6em;
 }
 h3 {
     font-size: 1em;
@@ -174,7 +162,7 @@ ul, li {
 }
 
 a, a:visited {
-	color: #5a5a5a;
+	color: #697480;
 	text-decoration: underline;
 }
 
@@ -214,15 +202,15 @@ a:hover {
 	/* letter-spacing: -1px; */
 	line-height: 1.2em;
 	margin-top: 0;
-	padding-top: 175px;
+	padding-top: 180px;
 	text-align: center;
-	-webkit-font-smoothing: antialiased; 
+
 }
 
 .nav {
 	text-align: center;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 17px;
 	min-height: 140px;
 	margin-top: 35px;
 	padding: 0;
@@ -250,8 +238,9 @@ a:hover {
 	margin: 0 0 10px 18px;
 }
 
-.nav a, a:visited {
+.nav a {
 	text-decoration: none;
+	color: #585858;
 }
 
 .nav a:hover {
@@ -265,7 +254,7 @@ a:hover {
 
 .illu {
 	text-align: center;
-	margin-top: 2.8em;
+	margin-top: 3em;
 }
 
 .illu img {
@@ -317,7 +306,6 @@ a:hover.backtotop {
 
 .wrong {
 	color: #cf5c45;
-	font-size: 2em;
 }
 
 .key {
@@ -328,7 +316,7 @@ a:hover.backtotop {
 	text-align: center;
 	text-decoration: none;
 	margin-left: .5em;
-	padding: 5px 15px 5px 15px;
+	padding: 10px 15px 5px 15px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-khtml-border-radius: 5px;
@@ -360,6 +348,7 @@ a:hover.backtotop {
 
 .keys p:last-child {
 	border-bottom: none;
+	margin-bottom: 0;
 }
 
 .links {
@@ -455,7 +444,7 @@ img.about {
   .hero h1 {
   	color: #fff;
   	font-size: 34px;
-  	padding-top: 115px;
+  	padding-top: 120px;
   }
   
   .nav {
@@ -477,19 +466,23 @@ img.about {
   
   .hero {
   	height: 420px;
-  	padding: 0 5% 0 5%;
+  	padding: 0;
   }
   
   .hero h1 {
   	color: #fff;
   	font-size: 38px;
-  	padding-top: 155px;
+  	padding-top: 160px;
   }
   
   .nav {
   	margin-top: 30px;
   	padding-bottom: 8px;
   	border-bottom: 1px solid #e4e4e4;
+  }
+  
+  .nav li {
+  	margin-left: 0!important;
   }
   
   .links ul,li {
@@ -503,8 +496,21 @@ img.about {
 /* Mobile */
 @media (max-width: 320px) and (min-width: 0px) { 
   
+  p {
+  	font-size: .9em;
+  	line-height: 1.6em;
+  	color: #69717b;
+  	margin-bottom: 1.5em;
+  	font-weight: normal;
+  }
+  
   h2 {
+  	font-size: 1.3em;
   	line-height: 1.3em;
+  }
+  
+  h6 {
+  	font-size: .9em;
   }
   
   .social {
@@ -515,7 +521,7 @@ img.about {
   
   .hero {
   	height: 420px;
-  	padding: 0 15% 0 15%;
+  	padding: 0 10% 0 10%;
   }
   
   .hero h1 {
@@ -530,6 +536,10 @@ img.about {
   	border-bottom: 1px solid #e4e4e4;
   }
   
+  .nav li {
+  	margin-left: 0!important;
+  }
+  
   .illu {
   	text-align: center;
   	margin-top: 2.5em;
@@ -539,10 +549,22 @@ img.about {
   	width: 140px;
   }
   
+  .key {
+  	font-size: .9em;
+  }
+  
+  .links {
+  	font-size: .9em;
+  }
+  
   .links ul,li {
   	margin-left: 10px;
   	padding: 0;
   	list-style-position: outside;
+  }
+  
+  .footer {
+  	font-size: .9em;
   }
   
 }
