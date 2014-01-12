@@ -176,7 +176,7 @@ a:hover {
 }
 
 .twitter-share-button {
-	margin-right: -16px;
+	margin-right: 5px;
 }
 
 .entypo {
@@ -188,6 +188,7 @@ a:hover {
 	text-align: right;
 	position: fixed;
 	margin-right: 0;
+	padding-right: 20px;
 }
 
 .hero {
@@ -395,6 +396,12 @@ img.about {
 .socialfooter {
 	margin-top: 0;
 	width: 100%;
+	text-align: center;
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.languageselect {
 	text-align: center;
 }
 
