@@ -191,6 +191,10 @@ a:hover {
 	padding-right: 20px;
 }
 
+.mobile-description {
+	visibility: hidden;
+}
+
 .hero {
 	background-color: #3d99de;
 	height: 460px;
@@ -206,64 +210,6 @@ a:hover {
 	padding-top: 180px;
 	text-align: center;
 
-}
-
-.nav {
-	text-align: center;
-	font-size: 14px;
-	line-height: 17px;
-	min-height: 140px;
-	margin-top: 35px;
-	padding: 0;
-	border-bottom: 1px solid #e4e4e4;
-}
-
-.nav ul {
-	width: 100%;
-	display: inline-block;
-	list-style-type: none;
-	float: left;
-}
-
-.nav li {
-	vertical-align: top;
-	display: inline-block;
-	width: 100px;
-	padding: 0 5px 0 5px;
-	margin-bottom: 20px;
-}
-
-.nav li img {
-	display: block;
-	text-align: center;
-	margin: 0 0 10px 18px;
-}
-
-.nav a {
-	text-decoration: none;
-	color: #585858;
-}
-
-.nav a:hover {
-	opacity: 0.5;
-	text-decoration: none;
-}
-
-.nav a:hover img {
-	opacity: 0.5;
-}
-
-.illu {
-	text-align: center;
-	margin-top: 3em;
-}
-
-.illu img {
-	width: 180px;
-}
-
-.block {
-	border-bottom: 1px solid #efefef;
 }
 
 .top {
@@ -408,6 +354,10 @@ img.about {
 /* Media Queries */
 /* Tablet */
 @media (max-width: 768px) and (min-width: 641px) {
+	
+	.mobile-description h6, ul, li {
+		visibility: hidden;
+	}
 	
 	.social {
 		width: 100%;
