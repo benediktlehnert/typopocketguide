@@ -139,15 +139,15 @@ h5 {
     text-align: left;
 }
 h6 {
+	font-family: KievitWebPro-Bold;
     font-size: 1em;
-    font-weight: bold;
-    line-height: 1.5em;
-    margin-top: .9em;
-    margin-bottom: .7em;
+    font-weight: normal;
+    line-height: 1.3em;
+    margin-top: 1.2em;
+    margin-bottom: .4em;
     color: #818c97;
     text-align: center;
-    padding-bottom: 0.4em;
-    border-bottom: 1px solid #e2e3e4;
+    /* border-bottom: 1px solid #e2e3e4; */
 }
 ul, ol, dl, blockquote {
     margin-top: 0;
@@ -254,11 +254,14 @@ a:hover {
 .description {
 	font-size: .7em;
 	text-align: center;
+	margin-top: 1em;
 }
 
 a.purchase-button {
 	font-size: .9em;
 	font-family: KievitWebPro-Bold;
+	font-weight: normal;
+	font-style: normal;
 	line-height: 1em;
 	/* background-color: #42459d; */
 	color: #42459d;
@@ -273,7 +276,7 @@ a.purchase-button {
 	z-index:1000;
 	text-align: center;
 	display: block;
-	margin-bottom: .6em;
+	margin-bottom: .5em;
 }
 
 
