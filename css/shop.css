@@ -330,18 +330,14 @@ a:hover.backtotop {
 	color: #3d99de; /* #3eaf8e; */	
 }
 
-.wrong {
-	color: #cf5c45;
+.subscribe h6 {
+	border-top: 1px solid #e2e3e4;
+	border-bottom: none;
+	line-height: 1.3em;
 }
 
-img.about {
-	width: 75px !important;
-	margin-top: 20px;
-	margin-bottom: 5px;
-	-moz-border-radius: 75px;
-	-webkit-border-radius: 75px;
-	-khtml-border-radius: 75px;
-	border-radius: 75px;
+.mc-field-group {
+	
 }
 
 .footer {
