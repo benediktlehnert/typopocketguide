@@ -1,43 +1,43 @@
 /* first for IE 4–8 */
 @font-face {
   font-family: KievitWebPro-Black;
-  src: url("KievitWebPro-Black.eot");
+  src: url(KievitWebPro-Black.eot);
 }
 
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: KievitWebPro-Black;
-  src: url("KievitWebPro-Black.woff") format("woff");
+  src: url(KievitWebPro-Black.woff) format("woff");
 }
 
 /* first for IE 4–8 */
 @font-face {
   font-family: KievitWebPro-Bold;
-  src: url("KievitWebPro-Bold.eot");
+  src: url(KievitWebPro-Bold.eot);
 }
 
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: KievitWebPro-Bold;
-  src: url("KievitWebPro-Bold.woff") format("woff");
+  src: url(KievitWebPro-Bold.woff) format("woff");
 }
 
 /* first for IE 4–8 */
 @font-face {
   font-family: KievitWebPro;
-  src: url("KievitWebPro.eot");
+  src: url(KievitWebPro.eot);
 }
 
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: KievitWebPro;
-  src: url("KievitWebPro.woff") format("woff");
+  src: url(KievitWebPro.woff) format("woff");
 }
 
 /* first for IE 4–8 */
 @font-face {
   font-family: KievitWebPro;
-  src: url("KievitWebPro-Ita.eot");
+  src: url(KievitWebPro-Ita.eot);
   font-weight: normal;
   font-style: italic;
 }
@@ -45,7 +45,7 @@
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: KievitWebPro;
-  src: url("KievitWebPro-Ita.woff") format("woff");
+  src: url(KievitWebPro-Ita.woff) format("woff");
   font-weight: normal;
   font-style: italic;
 }
@@ -53,7 +53,7 @@
 /* first for IE 4–8 */
 @font-face {
   font-family: KievitWebPro;
-  src: url("KievitWebPro-Bold.eot");
+  src: url(KievitWebPro-Bold.eot);
   font-weight: bold;
   font-style: normal;
 }
@@ -61,7 +61,7 @@
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: KievitWebPro;
-  src: url("KievitWebPro-Bold.woff") format("woff");
+  src: url(KievitWebPro-Bold.woff) format("woff");
   font-weight: bold;
   font-style: normal;
 }
