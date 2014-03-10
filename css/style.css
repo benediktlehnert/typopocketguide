@@ -1,3 +1,5 @@
+@import url("animation.css") screen;
+
 /* first for IE 4–8 */
 @font-face {
   font-family: KievitWebPro-Black;
@@ -193,7 +195,11 @@ a:hover {
 
 .hero {
 	background-color: #3d99de;
-	height: 460px;
+	/* background-image: url('../images/typoguide-cover.svg');
+	background-position: center;
+	background-position-y: 360px;
+	background-repeat: no-repeat; */
+	height: 420px;
 	text-align: center;
 }
 
@@ -204,7 +210,7 @@ a:hover {
 	line-height: 1.2em;
 	margin-top: 0;
 	margin-bottom: .7em;
-	padding-top: 160px;
+	padding-top: 150px;
 	text-align: center;
 
 }

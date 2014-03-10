@@ -158,9 +158,9 @@ ul, ol, dl, blockquote {
 ul, li {
 	color: #697480;
 	list-style: disc;
+	line-height: 1.5em;
 	list-style-position: inside;
 	-webkit-font-smoothing: antialiased;
-	padding-left: 1px;
 }
 
 a, a:visited {
@@ -251,6 +251,17 @@ a:hover {
 	color: #fff;
 	margin-top: 0;
 	list-style: none;
+}
+
+.gallery li {
+	padding: 0;
+	margin: 0;
+	line-height: 0;
+}
+
+.gallery img {
+	width: 100%;
+	margin: 0;
 }
 
 .description {
