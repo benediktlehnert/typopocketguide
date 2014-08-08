@@ -211,11 +211,6 @@ a:hover {
 
 .hero {
 	background-color: #3d99de;
-	background-image: url('../images/typoguide-cover.svg');
-	background-position: absolute;
-	background-position-x: 320px;
-	background-position-y: 60px;
-	background-repeat: no-repeat;
 	height: 420px;
 }
 
@@ -226,10 +221,9 @@ a:hover {
 	/* letter-spacing: -1px; */
 	line-height: 1.2em;
 	margin-top: 0;
-	margin-left: 610px;
 	margin-bottom: 0;
 	padding-top: 110px;
-	text-align: left;
+	text-align: center;
 }
 
 .hero h6 {
